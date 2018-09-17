@@ -1,0 +1,6 @@
+framework module Pods_tazalyk {
+  umbrella header "Pods-tazalyk-umbrella.h"
+
+  export *
+  module * { export * }
+}

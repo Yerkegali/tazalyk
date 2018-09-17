@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1682EC2C1A10EFC338D47D01 /* Pods_tazalyk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A79D32255CCF7717DB9241 /* Pods_tazalyk.framework */; };
+		9DBA6F9121478DE7008B0A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA6F9021478DE7008B0A09 /* AppDelegate.swift */; };
+		9DBA6F9321478DE7008B0A09 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA6F9221478DE7008B0A09 /* LoginController.swift */; };
+		9DBA6F9621478DE7008B0A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA6F9421478DE7008B0A09 /* Main.storyboard */; };
+		9DBA6F9821478DE9008B0A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA6F9721478DE9008B0A09 /* Assets.xcassets */; };
+		9DBA6F9B21478DE9008B0A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA6F9921478DE9008B0A09 /* LaunchScreen.storyboard */; };
+		9DBA6FA821479208008B0A09 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA6FA721479208008B0A09 /* LoginView.swift */; };
+		9DBA6FAA214795C8008B0A09 /* Extension+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA6FA9214795C8008B0A09 /* Extension+Anchor.swift */; };
+		9DBA6FAC214795E8008B0A09 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA6FAB214795E8008B0A09 /* Extension+UIColor.swift */; };
+		9DC31784214A3751004A9894 /* Extension+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC31783214A3751004A9894 /* Extension+TextField.swift */; };
+		9DE5D2BD214A80820095B47B /* Extension+StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5D2BC214A80820095B47B /* Extension+StackView.swift */; };
+		9DE5D2BF214BD1E10095B47B /* RegistrationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5D2BE214BD1E10095B47B /* RegistrationVIew.swift */; };
+		9DE5D2C3214BD20C0095B47B /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5D2C2214BD20C0095B47B /* RegistrationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A79D32255CCF7717DB9241 /* Pods_tazalyk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tazalyk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBA6F8D21478DE7008B0A09 /* tazalyk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tazalyk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBA6F9021478DE7008B0A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DBA6F9221478DE7008B0A09 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9DBA6F9521478DE7008B0A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DBA6F9721478DE9008B0A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DBA6F9A21478DE9008B0A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DBA6F9C21478DE9008B0A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBA6FA721479208008B0A09 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9DBA6FA9214795C8008B0A09 /* Extension+Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Anchor.swift"; sourceTree = "<group>"; };
+		9DBA6FAB214795E8008B0A09 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		9DC31783214A3751004A9894 /* Extension+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+TextField.swift"; sourceTree = "<group>"; };
+		9DE5D2BC214A80820095B47B /* Extension+StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+StackView.swift"; sourceTree = "<group>"; };
+		9DE5D2BE214BD1E10095B47B /* RegistrationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVIew.swift; sourceTree = "<group>"; };
+		9DE5D2C2214BD20C0095B47B /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		B85D2BFDE93291D0E6371DC3 /* Pods-tazalyk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tazalyk.release.xcconfig"; path = "Pods/Target Support Files/Pods-tazalyk/Pods-tazalyk.release.xcconfig"; sourceTree = "<group>"; };
+		EAF5B5A196ACFA71698F5188 /* Pods-tazalyk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tazalyk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tazalyk/Pods-tazalyk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DBA6F8A21478DE7008B0A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1682EC2C1A10EFC338D47D01 /* Pods_tazalyk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090F9D6F5BEA9788E61CDAAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5B5A196ACFA71698F5188 /* Pods-tazalyk.debug.xcconfig */,
+				B85D2BFDE93291D0E6371DC3 /* Pods-tazalyk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86D633FC1CA6C1D907B1432D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A79D32255CCF7717DB9241 /* Pods_tazalyk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DBA6F8421478DE7008B0A09 = {
+			isa = PBXGroup;
+			children = (
+				9DBA6F8F21478DE7008B0A09 /* tazalyk */,
+				9DBA6F8E21478DE7008B0A09 /* Products */,
+				090F9D6F5BEA9788E61CDAAD /* Pods */,
+				86D633FC1CA6C1D907B1432D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DBA6F8E21478DE7008B0A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6F8D21478DE7008B0A09 /* tazalyk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBA6F8F21478DE7008B0A09 /* tazalyk */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6FA221478E2C008B0A09 /* Extensions */,
+				9DBA6FA621478E5A008B0A09 /* Adds */,
+				9DBA6FA421478E41008B0A09 /* Views */,
+				9DBA6FA521478E4F008B0A09 /* Controllers */,
+			);
+			path = tazalyk;
+			sourceTree = "<group>";
+		};
+		9DBA6FA221478E2C008B0A09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6FA9214795C8008B0A09 /* Extension+Anchor.swift */,
+				9DBA6FAB214795E8008B0A09 /* Extension+UIColor.swift */,
+				9DC31783214A3751004A9894 /* Extension+TextField.swift */,
+				9DE5D2BC214A80820095B47B /* Extension+StackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DBA6FA421478E41008B0A09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6FA721479208008B0A09 /* LoginView.swift */,
+				9DE5D2BE214BD1E10095B47B /* RegistrationVIew.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DBA6FA521478E4F008B0A09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6F9221478DE7008B0A09 /* LoginController.swift */,
+				9DE5D2C2214BD20C0095B47B /* RegistrationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DBA6FA621478E5A008B0A09 /* Adds */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA6F9021478DE7008B0A09 /* AppDelegate.swift */,
+				9DBA6F9421478DE7008B0A09 /* Main.storyboard */,
+				9DBA6F9721478DE9008B0A09 /* Assets.xcassets */,
+				9DBA6F9921478DE9008B0A09 /* LaunchScreen.storyboard */,
+				9DBA6F9C21478DE9008B0A09 /* Info.plist */,
+			);
+			path = Adds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DBA6F8C21478DE7008B0A09 /* tazalyk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBA6F9F21478DE9008B0A09 /* Build configuration list for PBXNativeTarget "tazalyk" */;
+			buildPhases = (
+				164AA2014DC46EB3C2999B8C /* [CP] Check Pods Manifest.lock */,
+				9DBA6F8921478DE7008B0A09 /* Sources */,
+				9DBA6F8A21478DE7008B0A09 /* Frameworks */,
+				9DBA6F8B21478DE7008B0A09 /* Resources */,
+				C9DA5B51D9C7A6EA34480642 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tazalyk;
+			productName = tazalyk;
+			productReference = 9DBA6F8D21478DE7008B0A09 /* tazalyk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBA6F8521478DE7008B0A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yerkegali Abubakirov";
+				TargetAttributes = {
+					9DBA6F8C21478DE7008B0A09 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DBA6F8821478DE7008B0A09 /* Build configuration list for PBXProject "tazalyk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DBA6F8421478DE7008B0A09;
+			productRefGroup = 9DBA6F8E21478DE7008B0A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DBA6F8C21478DE7008B0A09 /* tazalyk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DBA6F8B21478DE7008B0A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBA6F9B21478DE9008B0A09 /* LaunchScreen.storyboard in Resources */,
+				9DBA6F9821478DE9008B0A09 /* Assets.xcassets in Resources */,
+				9DBA6F9621478DE7008B0A09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		164AA2014DC46EB3C2999B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tazalyk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9DA5B51D9C7A6EA34480642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tazalyk/Pods-tazalyk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tazalyk/Pods-tazalyk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DBA6F8921478DE7008B0A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBA6FAA214795C8008B0A09 /* Extension+Anchor.swift in Sources */,
+				9DE5D2C3214BD20C0095B47B /* RegistrationController.swift in Sources */,
+				9DE5D2BD214A80820095B47B /* Extension+StackView.swift in Sources */,
+				9DC31784214A3751004A9894 /* Extension+TextField.swift in Sources */,
+				9DBA6FAC214795E8008B0A09 /* Extension+UIColor.swift in Sources */,
+				9DBA6F9321478DE7008B0A09 /* LoginController.swift in Sources */,
+				9DBA6F9121478DE7008B0A09 /* AppDelegate.swift in Sources */,
+				9DBA6FA821479208008B0A09 /* LoginView.swift in Sources */,
+				9DE5D2BF214BD1E10095B47B /* RegistrationVIew.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DBA6F9421478DE7008B0A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBA6F9521478DE7008B0A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DBA6F9921478DE9008B0A09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBA6F9A21478DE9008B0A09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DBA6F9D21478DE9008B0A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DBA6F9E21478DE9008B0A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DBA6FA021478DE9008B0A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF5B5A196ACFA71698F5188 /* Pods-tazalyk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = "$(SRCROOT)/tazalyk/Adds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.tazalyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DBA6FA121478DE9008B0A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85D2BFDE93291D0E6371DC3 /* Pods-tazalyk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = "$(SRCROOT)/tazalyk/Adds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.tazalyk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DBA6F8821478DE7008B0A09 /* Build configuration list for PBXProject "tazalyk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBA6F9D21478DE9008B0A09 /* Debug */,
+				9DBA6F9E21478DE9008B0A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBA6F9F21478DE9008B0A09 /* Build configuration list for PBXNativeTarget "tazalyk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBA6FA021478DE9008B0A09 /* Debug */,
+				9DBA6FA121478DE9008B0A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DBA6F8521478DE7008B0A09 /* Project object */;
+}
